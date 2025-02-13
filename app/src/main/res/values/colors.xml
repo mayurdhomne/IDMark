@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#FEC007</color> <!-- Yellow Button Color -->
+    <color name="colorPrimaryDark">#0066B4</color> <!-- Darker Shade of Primary -->
+    <color name="colorAccent">#003b65</color> <!-- Blue for Links -->
+
+    <!-- Text Colors -->
+    <color name="textColorPrimary">#212121</color> <!-- Dark Text -->
+    <color name="textColorSecondary">#757575</color> <!-- Gray Subtitle Text -->
+    <color name="textColorLink">#003b65  </color> <!-- Blue for Links -->
+
+    <!-- Background Colors -->
+    <color name="colorBackground">#FFFFFF</color> <!-- White Background -->
+
+    <!-- Input Field Stroke -->
+    <color name="inputStrokeColor">#757575</color> <!-- Light Gray Border for Input Fields -->
 </resources>
