@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/app/src/androidTest/java/com/idmark/ExampleInstrumentedTest.kt;C:/Users/lenovo/IDMark/app/src/main/java/com/idmark/activities/AdminLogin.kt;C:/Users/lenovo/IDMark/app/src/main/java/com/idmark/activities/DashboardActivity.kt;C:/Users/lenovo/IDMark/app/src/main/java/com/idmark/activities/FacescanActivity.kt;C:/Users/lenovo/IDMark/app/src/main/java/com/idmark/activities/FingerprintActivity.kt;C:/Users/lenovo/IDMark/app/src/main/java/com/idmark/activities/LoginActivity.kt;C:/Users/lenovo/IDMark/app/src/main/java/com/idmark/activities/MainActivity.kt;C:/Users/lenovo/IDMark/app/src/main/java/com/idmark/activities/RegisterActivity.kt;C:/Users/lenovo/IDMark/app/src/test/java/com/idmark/ExampleUnitTest.kt;C:/Users/lenovo/IDMark/app/build.gradle.kts;C:/Users/lenovo/IDMark/build.gradle.kts;C:/Users/lenovo/IDMark/README.md;C:/Users/lenovo/IDMark/settings.gradle.kts" />
+  </component>
+</project>

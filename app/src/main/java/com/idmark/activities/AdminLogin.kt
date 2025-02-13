@@ -9,18 +9,20 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.idmark.R
 
-class LoginActivity : AppCompatActivity() {
+class AdminLogin : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        enableEdgeToEdge()
+        setContentView(R.layout.activity_admin_login)
 
         // Find the TextView by its ID
-        val tvAdminLogin: TextView = findViewById(R.id.tvadminlogin)
+        val tvAdminLogin: TextView = findViewById(R.id.tvuserlogin)
         // Set an OnClickListener on the TextView
         tvAdminLogin.setOnClickListener {
             // Create an Intent to navigate to AdminLogin activity
-            val intent = Intent(this, AdminLogin::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
+
     }
 }
