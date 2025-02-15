@@ -9,4 +9,13 @@
     <string name="biometric_login">Biometric Login</string>
     <string name="login_to_access">Log in to access the app</string>
     <string name="access_granted">Access granted</string>
+    <string name="attendance_overview">Attendance Overview</string>
+    <string name="present_today">Present Today</string>
+    <string name="first_checkin">First Checkin</string>
+    <string name="lateness">Lateness</string>
+    <string name="sick_leaves">Sick Leaves</string>
+    <string name="other_leaves">Other Leaves</string>
+    <string name="take_attendance">Take Attendance</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

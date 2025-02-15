@@ -1,4 +1,4 @@
-package com.idmark.activities
+package com.idmark.idmark.activity
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

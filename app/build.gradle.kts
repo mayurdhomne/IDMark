@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.google.services)
 }
 
 android {
@@ -13,6 +14,7 @@ android {
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
+        multiDexEnabled = true
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -36,6 +38,7 @@ android {
     buildFeatures {
         viewBinding = true
     }
+    buildToolsVersion = "35.0.0"
 
 }
 
@@ -77,6 +80,13 @@ dependencies {
     implementation(libs.androidx.biometric.v120alpha05)
 
 
+    implementation(libs.androidx.multidex)
+    implementation(libs.mpandroidchart)
+    implementation(libs.anychart.android)
 
-
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.analytics)
+    implementation(libs.firebase.auth) // Add if using Firebase Auth
+    implementation(libs.firebase.firestore)
 }
+apply(plugin = "com.google.gms.google-services")

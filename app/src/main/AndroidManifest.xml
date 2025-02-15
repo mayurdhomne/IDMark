@@ -6,17 +6,19 @@
         android:name="android.hardware.camera"
         android:required="false" />
 
-    <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.USE_BIOMETRIC" />
-    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
-    <uses-permission android:name="android.permission.USE_FACE"/>
-    <uses-feature android:name="android.hardware.fingerprint" android:required="true" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.USE_FACE" />
 
-
+    <uses-feature
+        android:name="android.hardware.fingerprint"
+        android:required="true" />
 
     <application
+        android:name="androidx.multidex.MultiDexApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -26,24 +28,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IDMark"
         tools:targetApi="31">
-         <activity
-            android:name=".activities.FacescanActivity"
+        <activity
+            android:name=".idmark.activity.AdminRegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.LoginActivity"
+            android:name=".idmark.activity.DashboardActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.DashboardActivity"
+            android:name=".idmark.activity.FacescanActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.AdminLogin"
+            android:name=".idmark.activity.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".idmark.activity.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".idmark.activity.AdminLogin"
             android:exported="false"
             android:theme="@style/Theme.IDMark" />
         <activity
-            android:name=".activities.MainActivity"
+            android:name=".idmark.activity.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.RegisterActivity"
+            android:name=".idmark.activity.SettingsActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

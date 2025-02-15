@@ -1,4 +1,4 @@
-package com.idmark.activities
+package com.idmark.idmark.activity
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -7,11 +7,11 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.idmark.R
 
-class DashboardActivity : AppCompatActivity() {
+class AdminRegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_dashboard)
+        setContentView(R.layout.activity_admin_register)
 
     }
 }
